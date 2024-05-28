@@ -1,0 +1,30 @@
+{
+  "name": "httpie-curl-examples",
+  "version": "1.0.0",
+  "description": "Working demo on how to use httpie and curl terminal commands (HEAD, GET, PUT, POST, DELETE)",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx json-server data/db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verdecchia/httpie-curl-examples.git"
+  },
+  "keywords": [
+    "curl",
+    "httpie",
+    "http-client"
+  ],
+  "author": "Marco Verdecchia <marco.verdecchia@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/verdecchia/httpie-curl-examples/issues"
+  },
+  "homepage": "https://github.com/verdecchia/httpie-curl-examples#readme",
+  "volta": {
+    "node": "22.2.0"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.0"
+  }
+}
