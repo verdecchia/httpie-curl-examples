@@ -1,7 +1,7 @@
 {
   "name": "httpie-curl-examples",
   "version": "1.0.0",
-  "description": "Working demo on how to use httpie and curl terminal commands (HEAD, GET, PUT, POST, DELETE)",
+  "description": "Working demo on how to use httpie and curl terminal commands (HEAD, GET, POST, PUT, PATCH, DELETE)",
   "main": "index.js",
   "scripts": {
     "start": "npx json-server data/db.json"
